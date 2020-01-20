@@ -1,0 +1,46 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cn.droidlover.xdroidmvp.test" >
+4
+5    <uses-sdk
+5-->D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5114221765964214527.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5114221765964214527.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5114221765964214527.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5114221765964214527.xml:11:5-15:78
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5114221765964214527.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5114221765964214527.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5114221765964214527.xml:13:22-53
+13        android:label="Tests for cn.droidlover.xdroidmvp.test"
+13-->D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5114221765964214527.xml:15:22-76
+14        android:targetPackage="cn.droidlover.xdroidmvp.test" />
+14-->D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5114221765964214527.xml:12:22-74
+15
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->[__tested_artifact__::mvp] D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-75
+16-->[__tested_artifact__::mvp] D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-72
+17
+18    <application
+18-->D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5114221765964214527.xml:7:5-9:19
+19        android:allowBackup="true"
+19-->[__tested_artifact__::mvp] D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0a0c7a2aa7dab3d5982857a0141b4de8\core-1.0.0\AndroidManifest.xml:22:18-86
+21        android:debuggable="true"
+21-->D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5114221765964214527.xml:7:18-43
+22        android:label="@string/app_name"
+22-->[__tested_artifact__::mvp] D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-41
+23        android:supportsRtl="true" >
+23-->[__tested_artifact__::mvp] D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-35
+24        <uses-library android:name="android.test.runner" />
+24-->D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5114221765964214527.xml:8:9-60
+24-->D:\AndroidITEM\MovieProject-master\mvp\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5114221765964214527.xml:8:23-57
+25    </application>
+26
+27</manifest>

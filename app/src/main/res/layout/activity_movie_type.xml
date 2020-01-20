@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.MovieTypeActivity">
+
+    <com.qmuiteam.qmui.widget.QMUITopBar
+        android:id="@+id/qm_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/qmui_topbar_height"
+        app:qmui_topbar_title_color="@color/black"></com.qmuiteam.qmui.widget.QMUITopBar>
+
+    <include layout="@layout/empty_loading_layout"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:background="#fff">
+
+        <com.demo.yxhmvp.widget.autolayout.AutoRoundRelativielayout
+            android:id="@+id/qmrl_home_seach"
+            android:layout_width="1000px"
+            android:layout_height="86px"
+            android:layout_centerInParent="true"
+            app:qmui_backgroundColor="#ededed"
+            app:qmui_borderColor="@color/qmui_s_transparent">
+
+            <ImageView
+                android:id="@+id/iv_home_seach"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40px"
+                android:padding="5px"
+                android:src="@mipmap/search_sel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20px"
+                android:layout_toRightOf="@+id/iv_home_seach"
+                android:text="复仇者联盟3"
+                android:textColor="#9b9b9b" />
+
+        </com.demo.yxhmvp.widget.autolayout.AutoRoundRelativielayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#bfbfbf"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:layout_marginTop="20px"
+        android:id="@+id/refresh_movie_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_movie_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+</LinearLayout>

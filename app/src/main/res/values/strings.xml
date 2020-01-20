@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MDemo_落尘yxh</string>
+
+
+    <string-array name="labels">
+        <item>最小</item>
+        <item>稍小</item>
+        <item>标准</item>
+        <item>稍大</item>
+        <item>最大</item>
+    </string-array>
+</resources>
